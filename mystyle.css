@@ -1,0 +1,35 @@
+#page {
+    padding: 0px !important;
+    margin: auto !important;
+    max-width: 100% !important;
+}
+#page-content {
+    /* align-items: center !important; */
+    justify-content: center !important;
+    max-width: 1270px !important;
+    padding: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+#region-bs-main-and-pre {
+    max-width: 75% !important;
+}
+#frontpage-course-list {
+    padding: 0px !important;
+}
+.col-md-3 {
+    padding: 0px !important;
+}
+.courses.frontpage-course-list-enrolled {
+    margin-right: 0px !important;
+    padding: 0px !important;
+}
+.coursebox {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.tool_dataprivacy {
+    max-width: 1270px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
