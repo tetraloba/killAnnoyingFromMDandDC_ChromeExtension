@@ -9,12 +9,18 @@
     //   "128": "images/icon/icon_128.png"
     // },
     "content_scripts": [{
-      "matches": ["https://kadai-moodle.kagawa-u.ac.jp/*", "https://www2.st.kagawa-u.ac.jp/*"], // リザルトページをURLから検出することはできない？js側で対応する必要があるかも。
+      "matches": ["https://kadai-moodle.kagawa-u.ac.jp/*"], // リザルトページをURLから検出することはできない？js側で対応する必要があるかも。
       "js": [
         "content.js"
       ],
       "css": [
         "mystyle.css"
+      ]
+    },
+    {
+      "matches": ["https://www2.st.kagawa-u.ac.jp/Portal/StudentApp/Notice.aspx"],
+      "js": [
+        "jumpToTopPage.js"
       ]
     }]
     // "background": { // content_scriptsとの使い分けをまだ理解していない。
