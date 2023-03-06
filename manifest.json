@@ -1,15 +1,10 @@
 {
     "name": "killAnnoyingFromMDandDC",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "manifest_version": 3,
     "description": "Kill annoying elements from Moodle and Dream Campus @ Kagawa univ.",
-    // "icons": { // とりあえず書いたが画像ファイルはまだ用意していない。
-    //   "16": "images/icon/icon_16.png",
-    //   "48": "images/icon/icon_48.png",
-    //   "128": "images/icon/icon_128.png"
-    // },
     "content_scripts": [{
-      "matches": ["https://kadai-moodle.kagawa-u.ac.jp/*"], // リザルトページをURLから検出することはできない？js側で対応する必要があるかも。
+      "matches": ["https://kadai-moodle.kagawa-u.ac.jp/*"],
       "js": [
         "content.js"
       ],
@@ -23,27 +18,4 @@
         "jumpToTopPage.js"
       ]
     }]
-    // "background": { // content_scriptsとの使い分けをまだ理解していない。
-    //     "scripts": [
-    //       "js/background.js" // 存在しないファイル
-    //     ],
-    //     "persistent": false
-    // }
-    // "browser_action": { // のちのち
-    //     "default_icon": {
-    //         "19": "images/icon/icon_19.png",
-    //         "38": "images/icon/icon_38.png"
-    //     },
-    //     "default_title": "Link Checker",
-    //     "default_popup": "popup.html"
-    // },
-    // "permissions": [
-    //   "tabs",
-    //   "storage"
-    // ],
-    // "host_permissions": [ // 必要かどうかすら不明
-    // "https://*/*",
-    // "http://*/*",
-    // "file:///*/*"
-    // ]
 }

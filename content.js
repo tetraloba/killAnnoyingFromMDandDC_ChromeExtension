@@ -1,5 +1,5 @@
 /* 「コースカテゴリ」の上のごちゃごちゃ(お知らせとか)を削除。 */
-document.getElementById('region-bs-main-and-pre').children[1].getElementsByClassName('box py-3 generalbox sitetopic')[0].remove();
+document.getElementById('region-main').children[1].getElementsByClassName('course-content')[0].remove();
 /* 「コースカテゴリ」を削除 */
 document.getElementById('frontpage-category-names').remove();
 
@@ -36,12 +36,6 @@ while (ptr_next) {
     ptr_next = ptr_next.nextElementSibling;
     ptr_remove.remove();
 }
-
-/* サイドバー */
-/* 「メインメニュ」を削除 */
-document.getElementById('block-region-side-pre').children[1]/* <- id=inst21 */.remove();
-/* 「マイコース」ヘッダ(タイトル)を削除 */
-document.getElementById('instance-587-header').remove();
 
 /* フッターを削除 */
 document.getElementById('page-footer').remove();
