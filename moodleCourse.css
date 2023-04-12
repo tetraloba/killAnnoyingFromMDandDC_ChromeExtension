@@ -40,6 +40,14 @@
 .section .activity {
     padding: 0px !important;
 }
+/* 各課題などの説明文 */
+.description .course-description-item:first-child {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+.description .course-description-item:last-child {
+    padding-bottom: 1px !important;
+}
 /* フッター */
 #footer .footer-main {
     padding: 0px !important;
