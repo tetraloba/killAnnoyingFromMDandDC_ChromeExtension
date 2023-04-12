@@ -1,0 +1,52 @@
+/* 最上部のヘッダー */
+.logo img {
+    height: 40px !important;
+}
+/* 上部の タイトル (コース名) */
+#page #page-header .d-flex {
+    margin-bottom: 0px !important;
+}
+.page-context-header {
+    padding: 0px !important;
+}
+.h1, .h2 {
+    margin-bottom: 0px !important;
+}
+/* 上部の 「コース 参加者 評定 コンピテンシ」 */
+.secondary-navigation {
+    padding-bottom: 0px !important;
+}
+.nav-link {
+    padding: 3px !important;
+}
+.moremenu {
+    height: auto !important;
+}
+.moremenu .nav.nav-tabs .nav-link {
+    padding: 0px !important;
+}
+/* 各回の要素一覧 */
+.course-content ul.topics li.section,
+.course-content ul.weeks li.section {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.activity-item {
+    padding: 0px !important;
+}
+.section li.activity {
+    padding-bottom: 0px !important;
+}
+.section .activity {
+    padding: 0px !important;
+}
+/* フッター */
+#footer .footer-main {
+    padding: 0px !important;
+}
+#footer .footer-bottom {
+    padding: 0px !important;
+}
+#footer .footer-bottom p {
+    padding-bottom: 0px !important;
+}

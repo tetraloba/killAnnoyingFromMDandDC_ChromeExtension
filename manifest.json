@@ -3,19 +3,27 @@
     "version": "2.0.0",
     "manifest_version": 3,
     "description": "Kill annoying elements from Moodle and Dream Campus @ Kagawa univ.",
-    "content_scripts": [{
-      "matches": ["https://kadai-moodle.kagawa-u.ac.jp/*"],
-      "js": [
-        "content.js"
-      ],
-      "css": [
-        "mystyle.css"
-      ]
-    },
-    {
-      "matches": ["https://www2.st.kagawa-u.ac.jp/Portal/StudentApp/Notice.aspx"],
-      "js": [
-        "jumpToTopPage.js"
-      ]
-    }]
+    "content_scripts": [
+      {
+        "matches": ["https://kadai-moodle.kagawa-u.ac.jp/"],
+        "js": [
+          "content.js"
+        ],
+        "css": [
+          "mystyle.css"
+        ]
+      },
+      {
+        "matches": ["https://kadai-moodle.kagawa-u.ac.jp/course/view.php*"],
+        "css": [
+          "moodleCourse.css"
+        ]
+      },
+      {
+        "matches": ["https://www2.st.kagawa-u.ac.jp/Portal/StudentApp/Notice.aspx"],
+        "js": [
+          "jumpToTopPage.js"
+        ]
+      }
+    ]
 }
