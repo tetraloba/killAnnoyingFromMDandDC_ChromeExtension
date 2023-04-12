@@ -5,7 +5,11 @@
     "description": "Kill annoying elements from Moodle and Dream Campus @ Kagawa univ.",
     "content_scripts": [
       {
-        "matches": ["https://kadai-moodle.kagawa-u.ac.jp/"],
+        "matches": [
+          "https://kadai-moodle.kagawa-u.ac.jp/",
+          "https://kadai-moodle.kagawa-u.ac.jp/?*",
+          "https://kadai-moodle.kagawa-u.ac.jp/index.php*"
+        ],
         "js": [
           "content.js"
         ],
