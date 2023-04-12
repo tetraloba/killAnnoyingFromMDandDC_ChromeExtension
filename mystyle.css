@@ -1,14 +1,19 @@
+/* 最上部のヘッダー */
+.logo img {
+    height: 40px !important;
+}
+
 #page {
     padding: 0px !important;
-    margin: auto !important;
+    margin: 0px !important;
     max-width: 100% !important;
 }
 #page-content {
     /* align-items: center !important; */
-    justify-content: center !important;
+    justify-content: left !important;
     max-width: 1270px !important;
     padding: 0 !important;
-    margin-left: auto !important;
+    margin-left: 0px !important;
     margin-right: auto !important;
 }
 #region-bs-main-and-pre {
@@ -32,4 +37,12 @@
     max-width: 1270px !important;
     margin-left: auto !important;
     margin-right: auto !important;
+}
+/* コースの画像 (「情報セキュリティ」のみ使用している) */
+.courseimage {
+    width: 0px !important;
+}
+/* コースの画像用のスペースはpaddingで作られている模様 */
+.courses.frontpage-course-list-enrolled .coursebox .info {
+    padding-left: 0px !important;
 }
