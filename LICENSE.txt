@@ -1,0 +1,4 @@
+This Google Chrome extension is released under the MIT license.
+See https://opensource.org/licenses/MIT
+
+© 2023 tetraloba All Rights Reserved.

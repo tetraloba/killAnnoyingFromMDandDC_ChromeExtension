@@ -1,3 +1,10 @@
+/**
+ * The program killAnnoying.js is released under the MIT license.
+ * See https://opensource.org/licenses/MIT
+ *
+ * @author tetraloba
+ */
+
 /* 「コースカテゴリ」の上のごちゃごちゃ(お知らせとか)を削除。 */
 document.getElementById('region-main').children[1].getElementsByClassName('course-content')[0].remove();
 /* 「コースカテゴリ」を削除 */
