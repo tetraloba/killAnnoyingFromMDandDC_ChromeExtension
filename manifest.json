@@ -11,7 +11,7 @@
           "https://kadai-moodle.kagawa-u.ac.jp/index.php*"
         ],
         "js": [
-          "content.js"
+          "killAnnoying.js"
         ],
         "css": [
           "mystyle.css"
