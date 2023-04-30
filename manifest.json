@@ -28,6 +28,12 @@
         "js": [
           "jumpToTopPage.js"
         ]
+      },
+      {
+        "matches": ["https://www2.st.kagawa-u.ac.jp/Portal/RichTimeOut.aspx"],
+        "js": [
+          "jumpToLoginPage.js"
+        ]
       }
     ]
 }
